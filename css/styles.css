@@ -30,32 +30,37 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.5;
 }
-a {
+a,
+.link {
   text-decoration: none;
   color: var(--semi-dark);
 }
-ul {
+ul,
+list {
   list-style-type: none;
 }
 .logo {
+  color: var(--primary-brand);
   font-family: var(--font-logo);
+  font-weight: var(--text-extrabold);
   font-size: var(--logo);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   line-height: 1.17;
   text-transform: uppercase;
 }
 .logo-accent {
-  color: var(--primary-brand);
+  color: var(--dark);
 }
-.navigation-link > a {
+.navigation-link {
   color: var(--dark);
   font-weight: var(--text-medium);
+  letter-spacing: 0.02em;
 }
-.navigation-link > a:hover,
-.navigation-link > a:focus {
+.navigation-link:hover,
+.navigation-link:focus {
   color: var(--hover-brand);
 }
-.current > a {
+.current {
   color: var(--hover-brand);
 }
 .contact-item > a:hover,
@@ -89,7 +94,6 @@ ul {
 }
 .team-card {
   background-color: var(--main-light);
-  width: 264px;
 }
 .section-title {
   color: var(--dark);
