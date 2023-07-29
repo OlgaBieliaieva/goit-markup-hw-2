@@ -98,7 +98,6 @@ list {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--hover-brand);
-  background-color: var(--main-light);
 }
 .card-title {
   color: var(--dark);
