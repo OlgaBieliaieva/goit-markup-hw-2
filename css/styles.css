@@ -98,6 +98,7 @@ list {
 .hero-button:hover,
 .hero-button:focus {
   color: var(--hover-brand);
+  color: var(--main-light);
 }
 .card-title {
   color: var(--dark);
@@ -129,12 +130,16 @@ list {
   color: var(--main-light);
 }
 .logo-invert {
-  color: var(--main-light);
+  color: var(--light);
   font-family: var(--font-logo);
   font-size: var(--logo);
   letter-spacing: 0.05em;
   line-height: 1.17;
   text-transform: uppercase;
+}
+.footer-text {
+  color: var(--light);
+  letter-spacing: 0.02em;
 }
 .filter-button {
   background-color: var(--light);
