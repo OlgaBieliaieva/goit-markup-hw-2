@@ -63,6 +63,12 @@ list {
 .current {
   color: var(--hover-brand);
 }
+.contacts {
+  font-style: normal;
+}
+.contact-item {
+  letter-spacing: 0.02em;
+}
 .contact-item > a:hover,
 .contact-item > a:focus {
   color: var(--hover-brand);
@@ -71,8 +77,12 @@ list {
   background-color: var(--dark);
   color: var(--main-light);
   font-weight: var(--text-bold);
+}
+.hero-title {
   font-size: var(--title);
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .hero-button {
   background-color: var(--primary-brand);
@@ -80,14 +90,24 @@ list {
   font-family: var(--font-primary);
   font-weight: var(--text-medium);
   font-size: var(--text);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   text-transform: capitalize;
   cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--hover-brand);
 }
 .card-title {
   color: var(--dark);
   font-weight: var(--text-medium);
   font-size: var(--subsection-title);
   line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.card-text {
+  letter-spacing: 0.02em;
 }
 .team {
   background-color: var(--light);
@@ -100,6 +120,9 @@ list {
   font-weight: var(--text-bold);
   font-size: var(--subtitle);
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .footer {
   background-color: var(--dark);
